@@ -29,7 +29,7 @@
 
             android:layout_toEndOf="@+id/imV"
             android:gravity="center"
-            android:text="Вконтакте"
+            android:text="TextView"
             android:textColor="#191919"
             android:textSize="30sp" />
 

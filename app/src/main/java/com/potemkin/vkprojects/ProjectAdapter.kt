@@ -33,18 +33,13 @@ class ProjectAdapter(
         Picasso.get().load(item.icon_url).into(holder.imV);
     }
 
-    /**
-     * Gets the number of items in the list
-     */
+
     override fun getItemCount(): Int {
         return item.size
     }
 
-    /**
-     * A ViewHolder describes an item view and metadata about its place within the RecyclerView.
-     */
+
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
-        // Holds the TextView that will add each item to
         val name = itemView.name
         val imV = itemView.imV
 
